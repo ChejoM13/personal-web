@@ -45,10 +45,13 @@ body.page-metodologia{
 .header_menu{
     display: flex;
     gap: 32px;
+    @media (width <= 700px) {
+        flex-direction: column;
+    }
 }
 .header_menu_enlace{
     font-family: var(--fuente-inter);
-    font-size: var(--font-size-menu);
+    font-size: clamp(0.5rem, 6vw, 1.2rem);
     font-weight: 600;
     text-decoration: none;
     color: var(--color-primario);
@@ -73,13 +76,13 @@ body.page-metodologia{
     }
 
     .presentacion_contenido_titulo{
-        font-size: var(--font-size-title);
+        font-size: clamp(2rem, 6vw, 2.90rem);
         font-family: var(--fuente-inter);
         font-weight: 900;
     }
 
     .presentacion_contenido_texto{
-        font-size: var(--font-size-p);
+        font-size: clamp(1rem, 6vw, 1.7rem);
         font-family: var(--fuente-inter);
     }
     

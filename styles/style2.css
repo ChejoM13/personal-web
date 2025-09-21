@@ -45,6 +45,11 @@ body.page-contact{
 .header_menu{
     display: flex;
     gap: 32px;
+
+    @media (width <= 700px) {
+        flex-direction: column;
+    }
+
 }
 .header_menu_enlace{
     font-family: var(--fuente-inter);
@@ -52,6 +57,7 @@ body.page-contact{
     font-weight: 600;
     text-decoration: none;
     color: var(--color-primario);
+    
 }
 .header_menu_enlace:active{
     color: var(--color-hover-text);
@@ -73,7 +79,7 @@ body.page-contact{
     }
 
     .presentacion_contenido_titulo{
-        font-size: var(--font-size-title);
+        font-size: clamp(1rem, 6vw, 3rem);
         font-family: var(--fuente-inter);
         font-weight: 900;
         text-align: right;
