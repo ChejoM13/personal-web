@@ -100,8 +100,8 @@ body {
 
 .title_separator{
     width: 200px;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
     z-index: -1;
 }
 
@@ -117,7 +117,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 1.063rem 0;
     width: 170px;
     font-family: 'Inter', sans-serif;
     font-size: 0.875rem;
