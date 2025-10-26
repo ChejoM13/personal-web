@@ -110,6 +110,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 170px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.presentacion_p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 400;
 }
 
 .pink-separator{
