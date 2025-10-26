@@ -117,7 +117,7 @@ body {
 .index_pic{
     position: absolute;
     width: 200px;
-    margin: 0 25%;
+    margin: 0% 50%;
     object-fit: cover;
     z-index: -1;
 }
