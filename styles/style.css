@@ -152,7 +152,7 @@ body {
     position: absolute;
     display: flex;
     width: 200px;
-    margin: 2px 47%;
+    margin: 2px 45%;
     object-fit: cover;
     z-index: -1;
 }
