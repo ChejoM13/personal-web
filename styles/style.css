@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
-/*
-:root{
-    --color-primario: #ffffff;
-    --color-secundario: #FF0B55;
-    --color-hover-text: #CF0F47;
-    --color-hover: #2a2a2a;
-
-    --fuente-inter: "Inter", sans-serif;
-    --font-size-title: 2.75rem; 
-    --font-size-menu: 1.20rem;
-    --font-size-p: 1.75rem;
-    --font-size-p2: 1.5rem;
-}
-
-{
-    padding: 0;
-    margin: 0;
-}
-/* Estilos generales */
 
 body {
     font-family: "Inter", sans-serif;
@@ -94,29 +75,45 @@ body {
 
 .destacar_titulo{
     color: #FF2E83;
-    font-size: 50px;
+    font-size: 3.125rem;
+    gap: 3rem;
 }
 
 .presentacion{
     display: flex;
     flex-direction: column;
-    margin: 4% 6%;
+    margin: 5% 9%;
     justify-content: space-between;
 }
 
 .presentacion_contenido{
-    width: 209px;
+    width: 200px;
     display: flex;
     flex-direction: column;
-    gap: 17px;
 }
 
 .title_separator{
-    width: 170px;
+    width: 200px;
 }
 
 .presentacion_contenido_titulo{
-    font-size: 34px;
+    font-size: 2.125rem;
+    gap: 38px;
+    word-spacing: 0.313;
+}
+
+.index_pic{
+    width: 200px;
+}
+.presentacion_p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pink-separator{
+    display: flex;
+    width: 50px;
 }
 
 @media ( width > 764px){
