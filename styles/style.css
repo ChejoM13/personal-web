@@ -102,7 +102,7 @@ body {
     width: 200px;
     margin: 0;
     padding: 0;
-    z-index: -2;
+    z-index: -1;
 }
 
 .presentacion_contenido_titulo{
@@ -149,7 +149,7 @@ body {
     position: absolute;
     display: flex;
     width: 200px;
-    margin: 0% 47%;
+    margin: 1% 47%;
     object-fit: cover;
     z-index: -1;
 }
