@@ -75,7 +75,7 @@ body {
 
 .destacar_titulo{
     color: #FF2E83;
-    font-size: 3.125rem;
+    font-size: 3.375rem;
     gap: 3rem;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .presentacion_contenido{
-    width: 200px;
+    width: 209px;
     display: flex;
     flex-direction: column;
 }
@@ -97,13 +97,17 @@ body {
 }
 
 .presentacion_contenido_titulo{
-    font-size: 2.125rem;
+    font-size: 2.375rem;
     gap: 38px;
     word-spacing: 0.313;
 }
 
 .index_pic{
     width: 200px;
+    margin: 0 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .presentacion_p1{
     display: flex;
