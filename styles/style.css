@@ -112,7 +112,7 @@ body {
     align-items: center;
     width: 170px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -122,7 +122,7 @@ body {
     align-items: center;
     width: 170px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     font-weight: 400;
 }
 
