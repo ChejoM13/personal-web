@@ -104,7 +104,7 @@ body {
 
 .index_pic{
     width: 200px;
-    margin: 0 16%;
+    margin: 0 25%;
     display: flex;
     flex-direction: column;
     align-items: end;
