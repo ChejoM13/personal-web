@@ -113,12 +113,12 @@ body {
 }
 
 .presentacion_p1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0;
     margin: 1.063rem 0;
     width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-size: 0.875rem;
     font-weight: 500;
@@ -126,6 +126,10 @@ body {
 
 .presentacion_contenido_texto1{
     margin: 0;
+    padding: 0;
+}
+.presentacion_contenido_texto2{
+    margin: 1.063rem 0;
     padding: 0;
 }
 
@@ -161,6 +165,16 @@ body {
     margin: 0 -18px;
     padding: 0 0;
     z-index: -1;
+}
+
+.presentacion_index_sec1{
+    margin: 1.063rem 0;
+    padding: 0;    
+}
+
+.presentacion_index_sec1{
+    margin: 0 0;
+    padding: 0;   
 }
 
 @media ( width > 764px){
