@@ -133,6 +133,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    margin: 0 0;
     width: 170px;
     font-family: 'Inter', sans-serif;
     font-size: 0.625rem;
@@ -140,12 +142,8 @@ body {
 }
 
 .pink-separator{
-    display: flex;
     width: 50px;
-    margin: 0;
-    padding: 0;
 }
-
 
 .index_pic{
     position: absolute;
