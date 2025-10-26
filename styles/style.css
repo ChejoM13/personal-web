@@ -32,6 +32,7 @@ body {
 }
 
 .nav__toggle, .nav__figure{
+    position: relative;
     z-index: 10;
 }
 
@@ -51,6 +52,7 @@ body {
 }
 
 .nav__list{
+    position: relative;
     transform: var(--transform-menu-show);
     position: fixed;
     inset: 0;
@@ -62,6 +64,7 @@ body {
     background-color: #282828;
     list-style: none;
     transition: .5s transform;
+    z-index: 1;
 }
 
 .nav__link{
@@ -83,7 +86,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 5% 9%;
+    margin: 5% 5%;
     justify-content: space-between;
 }
 
@@ -116,8 +119,9 @@ body {
 
 .index_pic{
     position: absolute;
+    display: flex;
     width: 200px;
-    margin: 0% 50%;
+    margin: 0% 47%;
     object-fit: cover;
     z-index: -1;
 }
