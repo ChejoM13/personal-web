@@ -157,6 +157,15 @@ body {
     z-index: -1;
 }
 
+.lat-index-assets{
+    position: absolute;
+    display: flex;
+    width: 26px;
+    margin: -2px -15px;
+    padding: 0 0;
+    z-index: -1;
+}
+
 @media ( width > 764px){
     .nav__container{
         --transform-menu-show: translate(0);
