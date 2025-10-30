@@ -227,7 +227,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('/assets/bg-texture1.jpg');
+    background-image: url('/assets/bg-texture1.png');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
