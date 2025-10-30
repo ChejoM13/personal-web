@@ -236,6 +236,14 @@ body {
     mix-blend-mode: screen;
 }
 
+.descanso_donnut_gray{
+    width: 88px;
+    margin-bottom: 83px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
 .descanso1_text{
     width: 214px;
     text-align: center;
