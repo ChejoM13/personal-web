@@ -286,7 +286,7 @@ body {
     padding: 0;
     width: 174px;
     font-size: 0.813rem;    
-    text-align: right;
+    text-align: left;
 }
 
 @media ( width > 764px){
