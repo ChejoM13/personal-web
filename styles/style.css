@@ -270,7 +270,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 17px 6%;
-    gap: 5%;
+    gap: 4%;
 }
 
 .img_rrss{
@@ -283,7 +283,7 @@ body {
     margin: 0;
     padding: 0;
     width: 180px;
-    font-size: 0.875rem;    
+    font-size: 0.75rem;    
     text-align: right;
 }
 
