@@ -291,11 +291,26 @@ body {
 
 .barra_promedio{
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 5%;
+    margin: 0;
+    padding: 0;
     background-color: #282828;
     width: 226px;
 }
 
+.spiral_square{
+    width: 94px;
+    background-color: #FF2E83;
+}
+
+.spiral_white{
+    width: ;
+}
+
 .info_horas{
+    width: 226px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 0.75rem;
