@@ -248,7 +248,7 @@ body {
 
 .index_pix_gray{
     position: absolute;
-    top: 70%;
+    top: 69%;
     left: 7%;
     width: 2.5vw;
     padding: 0;
@@ -257,7 +257,7 @@ body {
 }
 
 .descanso1_text{
-    width: 23vh;
+    width: 25vh;
     text-align: center;
     font-family: "BBH Sans Hegarty", sans-serif;
     color: #FFFFFF;
