@@ -242,14 +242,17 @@ body {
     position: absolute;
     z-index: 0;
 }
+.descanso{
+    position: relative;
+}
 
 .index_pix_gray{
     position: absolute;
-    top: 673px;
-    width: 10px;
-    padding: 0 0;
+    top: 73%;
+    width: 10vw;
+    padding: 0;
+    margin: 0;
     rotate: 90deg;
-    margin: 0 7%;
 }
 
 .descanso1_text{
