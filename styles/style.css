@@ -280,6 +280,8 @@ body {
 }
 
 .parrafo_rrss{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     width: 180px;
