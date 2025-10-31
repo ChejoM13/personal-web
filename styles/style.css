@@ -266,6 +266,17 @@ body {
     z-index: 1;
 }
 
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6%;
+    gap: 5%;
+}
+
+.img_rrss{
+    width: 144px;
+    
+}
 @media ( width > 764px){
     .nav__container{
         --transform-menu-show: translate(0);
