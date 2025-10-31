@@ -249,7 +249,8 @@ body {
 .index_pix_gray{
     position: absolute;
     top: 73%;
-    width: 10vw;
+    left: 7%;
+    width: 2.5vw;
     padding: 0;
     margin: 0;
     rotate: 90deg;
