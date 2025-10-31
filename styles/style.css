@@ -277,8 +277,16 @@ body {
     width: 144px;
     height: 105px;
     border: 2px solid #FF2E83, ;
-
 }
+
+.parrafo_rrss{
+    margin: 0;
+    padding: 0;
+    width: 174px;
+    font-size: 0.75rem;    
+    text-align: right;
+}
+
 @media ( width > 764px){
     .nav__container{
         --transform-menu-show: translate(0);
