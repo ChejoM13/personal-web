@@ -289,6 +289,18 @@ body {
     text-align: left;
 }
 
+    .footer{
+        width: 100%;
+        background-color: #FF2E83;
+        padding: 12px 0;
+        font-family: 'Inter', sans-serif;
+        color: #282828;
+        font-weight: 600;
+        font-size: 0.75rem;
+        position: absolute;
+        text-align: center;
+    }
+
 @media ( width > 764px){
     .nav__container{
         --transform-menu-show: translate(0);
