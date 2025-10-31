@@ -289,6 +289,18 @@ body {
     text-align: left;
 }
 
+.barra_promedio{
+    display: flex;
+    background-color: #282828;
+    width: 226px;
+}
+
+.info_horas{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+}
+
 .footer{
         width: 100%;
         background-color: #FF2E83;
