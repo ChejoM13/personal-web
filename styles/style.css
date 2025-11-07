@@ -289,53 +289,74 @@ body {
     text-align: left;
 }
 
-.barra_promedio{
-    width: 226px;
+.promedio_sec{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap: 5%;
-    margin: 15px;
-    background-color: #282828;
-    width: 226px;
+    width: 100%;
+    margin: 5%;
 }
 
-.info_horas{
-    padding: 10px;
-    text-align: center;
+.barra_promedio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.info_promedio{
+    width: 237px;
+    flex-direction: column;
 }
 
 .promedio{
     color: #FF2E83;
-    font-weight: 400;
+    font-weight: 400;    
+}
+
+.info_horas{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    text-align: center;
+    background-color: #282828;
+    padding: 13px 6px;
+}
+
+.info_horas_2{
+    color: #FF2E83;
+}
+
+.info_horas_title{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .spiral_square{
-    width: 94px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FF2E83;
+    border-radius: 15px;
 }
 
 .spiral_white{
     width: 72px;
-}
-
-.info_horas{
-    width: 226px;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.75rem;
+    padding: 18px 11px;
 }
 
 .footer{
-        width: 100%;
-        background-color: #FF2E83;
-        padding: 12px 0;
-        font-family: 'Inter', sans-serif;
-        color: #282828;
-        font-weight: 600;
-        font-size: 0.75rem;
-        text-align: center;
-    }
+    width: 100%;
+    background-color: #FF2E83;
+    padding: 12px 0;
+    font-family: 'Inter', sans-serif;
+    color: #282828;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-align: center;
+}
 
 .container{
     min-height: 100dvh;
