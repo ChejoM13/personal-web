@@ -276,7 +276,7 @@ body {
 .img_rrss{
     width: 144px;
     height: 105px;
-    border: 2px solid #FF2E83, ;
+    border: 2px solid #FF2E83;
 }
 
 .parrafo_rrss{
@@ -290,14 +290,24 @@ body {
 }
 
 .barra_promedio{
+    width: 226px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 5%;
-    margin: 0;
-    padding: 0;
+    margin: 15px;
     background-color: #282828;
     width: 226px;
+}
+
+.info_horas{
+    padding: 10px;
+    text-align: center;
+}
+
+.promedio{
+    color: #FF2E83;
+    font-weight: 400;
 }
 
 .spiral_square{
@@ -306,7 +316,7 @@ body {
 }
 
 .spiral_white{
-    width: ;
+    width: 72px;
 }
 
 .info_horas{
