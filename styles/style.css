@@ -87,6 +87,7 @@ body {
     flex-direction: column;
     margin: 5% 0;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .presentacion_contenido{
@@ -234,14 +235,15 @@ body {
     z-index: -1;
     mix-blend-mode: screen;
 }
-
 .descanso_donnut_gray{
     width: 88px;
     margin-bottom: 165px;
     position: absolute;
-    right: -20px;
     z-index: 0;
-}
+    right: -20px;
+    top: -65px;
+}  
+
 .descanso{
     position: relative;
 }
@@ -372,6 +374,11 @@ body {
     grid-template-rows: auto 1fr auto;
     max-width: 100%;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media ( width > 764px){
