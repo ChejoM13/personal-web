@@ -297,22 +297,33 @@ body {
 
 .promedio_sec{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    margin: 5%;
+    margin: 0%;
+    padding: 0 5%;
+    box-sizing: border-box;
 }
 
 .barra_promedio{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5%;
+    gap: 2%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .info_promedio{
-    width: 237px;
+    max-width: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
 }
 
 .promedio{
@@ -326,6 +337,8 @@ body {
     text-align: center;
     background-color: #282828;
     padding: 13px 4px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .info_horas_2{
@@ -337,6 +350,8 @@ body {
     text-align: center;
     font-size: 2rem;
     margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .info_horas_nav{
@@ -344,9 +359,13 @@ body {
     margin: 0;
     font-size: 0.75rem;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .spiral_square{
+    width: auto;
+    flex-shrink: 0;
     margin-top: 0;
     display: flex;
     flex-direction: column;
@@ -354,11 +373,11 @@ body {
     align-items: center;
     background-color: #FF2E83;
     border-radius: 15px;
+    padding: 18px 11px;
 }
 
 .spiral_white{
     width: 72px;
-    padding: 18px 11px;
 }
 
 .footer{
