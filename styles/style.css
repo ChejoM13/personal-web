@@ -4,7 +4,6 @@
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
-    width: 90%;
     height: 100vh;
     box-sizing: border-box;
 }
@@ -371,6 +370,8 @@ body {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 @media ( width > 764px){
