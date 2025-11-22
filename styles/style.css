@@ -302,6 +302,7 @@ body {
     margin: 0%;
     padding: 0 5%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .barra_promedio{
@@ -353,6 +354,7 @@ body {
     margin: 0;
     width: 100%;
     box-sizing: border-box;
+    line-height: 1.02;
 }
 
 .info_horas_nav{
