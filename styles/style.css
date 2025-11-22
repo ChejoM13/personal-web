@@ -422,6 +422,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 5%;
+    margin: 3% 0;
     width: 100%;
     box-sizing: border-box;
     padding: 0 5%;
