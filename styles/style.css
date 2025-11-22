@@ -308,10 +308,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2%;
+    gap: 3%;
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+    overflow: visible;
 }
 
 .info_promedio{
@@ -363,6 +364,12 @@ body {
     box-sizing: border-box;
 }
 
+.spiral_wrapper{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
 .spiral_square{
     width: auto;
     flex-shrink: 0;
@@ -374,6 +381,33 @@ body {
     background-color: #FF2E83;
     border-radius: 15px;
     padding: 18px 11px;
+    position: relative;
+    z-index: 0;
+}
+
+.spiral_wrapper::before, .spiral_wrapper::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.spiral_wrapper::before{
+    border: 1px solid #FF2E83;
+    top: 0;
+    left: -4px;
+    z-index: -1;
+}
+
+.spiral_wrapper::after{
+    border: 1px solid #FF2E83;
+    top: 0;
+    left: -8px;
+    z-index: -1;
 }
 
 .spiral_white{
