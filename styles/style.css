@@ -419,13 +419,13 @@ body {
 
 .porcentaje{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 3% 0%;
-    padding: 0 5%;
-    box-sizing: border-box;
-    gap: 5%;
+    justify-content: space-between;
     align-items: center;
+    gap: 3%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5%;
+    overflow: visible;
 }
 
 .info_porcentaje{
@@ -437,7 +437,7 @@ body {
     width: auto;
     flex-shrink: 0;
     margin-top: 0;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -479,8 +479,9 @@ body {
     z-index: -1;
 }
 
-.spiral_white{
-    width: 72px;
+.spiral_pink{
+    width: 110px;
+    max-width: 110px;
 }
 
 .footer{
