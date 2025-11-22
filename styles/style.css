@@ -413,7 +413,8 @@ body {
 }
 
 .spiral_white{
-    width: 100px;
+    width: 110px;
+    max-width: 110px;
 }
 
 .porcentaje{
