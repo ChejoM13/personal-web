@@ -422,6 +422,7 @@ body {
     padding: 0 5%;
     box-sizing: border-box;
     gap: 3%;
+    align-items: center;
 }
 
 .info_porcentaje{
