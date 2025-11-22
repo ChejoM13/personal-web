@@ -429,6 +429,56 @@ body {
 
 }
 
+.spiral_square_pink{
+    width: auto;
+    flex-shrink: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    border-radius: 15px;
+    padding: 18px 11px;
+    position: relative;
+    z-index: 0;
+}
+
+.spiral_wrapper_2{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.spiral_wrapper_2::before, .spiral_wrapper_2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.spiral_wrapper_2::before{
+    border: 1px solid #282828;
+    top: 0;
+    left: 4px;
+    z-index: -1;
+}
+
+.spiral_wrapper_2::after{
+    border: 1px solid #282828;
+    top: 0;
+    left: 8px;
+    z-index: -1;
+}
+
+.spiral_white{
+    width: 72px;
+}
+
 .footer{
     margin: 0;
     width: 100%;
