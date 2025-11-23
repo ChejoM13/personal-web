@@ -500,7 +500,7 @@ body {
 .white_arrow_lat{
     transform: rotate(90deg);
     width: 500px;
-    left: -48%;
+    left: -50%;
     top: 50%;
     z-index: 2;
     position: absolute;
@@ -510,7 +510,7 @@ body {
     transform: rotate(90deg);
     width: 500px;
     top: 50%;
-    right: -48%;
+    right: -50%;
     z-index: 2;
     position: absolute;
 }
