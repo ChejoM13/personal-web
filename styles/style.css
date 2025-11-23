@@ -563,6 +563,32 @@ body {
     font-weight: 400;
 }
 
+.resultados_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientes_rrss{
+    width: 70%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.clientes_rrss_strong{
+    font-weight: 800;
+}
+
+.convierta_rrss{
+    width: 70%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
 .footer{
     margin: 0;
     width: 100%;
