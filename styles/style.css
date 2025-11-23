@@ -544,8 +544,9 @@ body {
 }
 
 .horas_2_info{
-    width: 65%;
+    width: 75%;
     font-size: 0.625rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer{
