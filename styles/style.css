@@ -590,6 +590,19 @@ body {
     font-weight: 400;
 }
 
+.resultados_reales{
+    margin: 0;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.resultados_reales_strong{
+    color: #FF2E83;
+    font-weight: 400;
+}
+
 .footer{
     margin: 0;
     width: 100%;
