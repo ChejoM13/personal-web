@@ -486,6 +486,24 @@ body {
     max-width: 80px;
 }
 
+.lat_arrows_white{
+    width: auto;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.white_arrow_lat{
+    transform: rotate(90deg);
+    width: 500px;
+    left: -240px;
+    z-index: 2;
+    position: absolute;
+}
+
 .horas_2_sec{
     padding: 0;
     margin: 15px 0;
@@ -512,20 +530,6 @@ body {
     pointer-events: none;
     z-index: -1;
     mix-blend-mode: screen;
-}
-
-.lat_arrows_white{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: left;
-}
-
-.white_arrow_lat{
-    transform: rotate(90deg);
-    left: 0;
-    margin: 0;
-    padding: 0;
 }
 
 .footer{
