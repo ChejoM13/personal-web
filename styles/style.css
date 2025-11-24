@@ -679,6 +679,10 @@ body {
     font-weight: 800;
     font-size: 2rem;
     z-index: 0;
+    letter-spacing: normal !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
 }
 
 .odometers{
