@@ -639,6 +639,7 @@ body {
     font-family: "BBH Sans Hegarty", sans-serif;
     font-size: 1.375rem;
     text-align: center;
+    z-index: -2;
 }
 
 .advertencia_text{
@@ -667,7 +668,7 @@ body {
 
 .advertencia_text_pasado_2{
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     color: #282828;
     font-size: 0.75rem;
     font-family: 'Inter', sans-serif;
