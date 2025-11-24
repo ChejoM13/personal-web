@@ -15,8 +15,11 @@ body {
     align-items: center;
 }
 
-.CM{
+.CM_nav{
     margin-left: 5%;
+}
+
+.CM{
     color: #FFFFFF;
     font-family: "BBH Sans Hegarty", sans-serif;
     font-size: 1.25rem;
