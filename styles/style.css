@@ -593,7 +593,8 @@ body {
 }
 
 .resultados_reales{
-    margin-top: 3%;
+    color: #282828;
+    margin-top: 2%;
     margin-bottom: 0;
     font-family: "BBH Sans Hegarty", sans-serif;
     font-size: 2rem;
@@ -604,6 +605,83 @@ body {
 .resultados_reales_strong{
     color: #FF2E83;
     font-weight: 400;
+}
+
+.advertencia_div{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF2E83;
+    margin-top: 2%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.advertencia_div::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('/assets/bg-texture1.png');
+    background-size: cover;
+    background-repeat: round;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: -1;
+    mix-blend-mode: screen;
+}
+
+.advertencia_title{
+    color: #282828;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+.advertencia_text{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.Velociraptors{
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.velociraptros_denied{
+    width: 28%;
+    z-index: -2;
+}
+
+.advertencia_text_pasado{
+    margin: 0;
+    color: #282828;
+    font-size: 0.625rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.stats_container{
+    display: grid;
+    margin: 30px auto;
+    max-width: 1000px;
+    padding-inline: 16px;
+}
+
+.stats_container .stat{
+    background-color: #FFFFFF;
+    padding: 24px;
+    text-align: center;
+    color: #282828;
+}
+
+.odometer{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer{
