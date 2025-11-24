@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chejo Maldonado</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
 </head>
 <body class="page-index">
     <div class="container">
@@ -117,9 +118,9 @@
                     <p class="advertencia_text">Mi trabajo está libre de <strong class="Velociraptors">Velociraptors</strong></p>
                     <img src="./assets/velosiraptors-assets.png" class="velociraptros_denied">
                     <p class="advertencia_text_pasado">Han pasado</p>
-                    <div class="stats_container">
-                        <div class="stat">
-                            <div class="odometer">0</div>
+                    <div class="odometers">
+                        <div class="meter">
+                            <div class="odometer" data-value="25932750009" data-increment="1" data-interval="9000"></div>
                         </div>
                     </div>
                     <p class="advertencia_text_pasado_2">días desde el último incidente.</p>
@@ -130,9 +131,17 @@
             <p>© Desarrollado por Chejo Maldonado</p>
         </footer>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.5/odometer.min.js" integrity="sha512-W/5PVFcV7i2BF+W7oc1dkJk2J7HGEXCYyvPoVVUyM4QT9wJHqRQ60vG5TieVJlaxpqFPPwfGU7aXW+sKk4ufaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script>
+        document.querySelectorAll('.odometer').forEach((odometerElement) => {
+            let value = parseInt(odometerElement.getAttribute('data-value'));
+            let increment = parseInt(odometerElement.getAttribute('data-increment'));
+            let interval = parseInt(odometerElement.getAttribute('data-interval'));
+            setInterval(()=> {
+                value += increment;
+                odometerElement.innerHTML = value;
+            }, interval)
+        })
+    </script>
 </body>
 </html> 
