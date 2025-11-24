@@ -678,7 +678,6 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 2rem;
-    z-index: 0;
     letter-spacing: normal !important;
     padding-right: 0 !important;
     margin-right: 0 !important;
@@ -692,6 +691,7 @@ body {
     width: 75%;
     max-width: 1000px;
     flex-wrap: wrap;
+    z-index: -2;
 }
 
 .meter{
