@@ -642,7 +642,7 @@ body {
     background-image: url('/assets/bg-texture1.png');
     background-size: cover;
     background-repeat: round;
-    opacity: 0.8;
+    opacity: 0.9;
     pointer-events: none;
     z-index: -1;
     mix-blend-mode: screen;
