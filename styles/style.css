@@ -774,6 +774,69 @@ body {
     width: 55%;
 }
 
+.necesidad_marca{
+    width: 100%;
+    align-items: center;
+}
+
+.necesidad_marca_p{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #282828;
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.necesidad_marca_tg{
+    width: 100%;
+    background-color: #282828;
+    padding: 1%;
+}
+
+.necesidad_marca_epi{
+    margin: 0;
+    margin-bottom: 2%;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.necesidad_marca_epi_strong{
+    color: #FF2E83;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.necesidad_marca_cta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.necesidad_marca_p_cta{
+    margin-top: 4%;
+    color: #282828;
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.necesidad_marca_button{
+    background-color: #FF2E83;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 50%;
+    padding: 1%;
+    font-weight: 700;
+}
+
 .footer{
     margin: 0;
     width: 100%;
