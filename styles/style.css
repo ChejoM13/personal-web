@@ -730,6 +730,50 @@ body {
     z-index: 2;
 }
 
+.info_diseñador{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_diseñador_p{
+    margin-left: 4%;
+    color: #282828;
+    font-size: 0.75rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.info_diseñador_p1_strong{
+    font-style: oblique;
+    font-weight: 800;
+}
+
+.info_diseñador_p2{
+    color: #282828;
+    font-size: 0.75rem;
+    text-align: left;
+    font-family: 'Inter', sans-serif; 
+}
+
+.info_diseñador_p2_strong{
+    font-weight: 800;
+}
+
+.info_diseñador_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.img_diseñador_info{
+    width: 55%;
+}
+
 .footer{
     margin: 0;
     width: 100%;
