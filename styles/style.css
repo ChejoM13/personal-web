@@ -765,7 +765,7 @@ body {
 }
 
 .info_diseñador_img{
-    width: 95%;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -779,7 +779,7 @@ body {
 .img_diseñador_info{
     width: 80%;
     position: absolute;
-    top: -5%;
+    top: -6%;
     bottom: 0;
     right: 40%;
     object-fit: cover;
