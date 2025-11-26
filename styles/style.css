@@ -735,7 +735,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 .info_diseñador_p{
@@ -777,7 +777,7 @@ body {
 }
 
 .img_diseñador_info{
-    width: 65%;
+    width: 80%;
     position: absolute;
     top: 0;
     bottom: 0;
