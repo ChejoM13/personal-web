@@ -753,7 +753,6 @@ body {
 
 .info_diseñador_p2{
     margin-left: 50%;
-    padding-top: 2%;
     color: #282828;
     font-size: 0.75rem;
     text-align: left;
@@ -780,7 +779,7 @@ body {
 .img_diseñador_info{
     width: 80%;
     position: absolute;
-    top: 0;
+    top: -5%;
     bottom: 0;
     right: 47%;
     object-fit: cover;
