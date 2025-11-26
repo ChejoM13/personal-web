@@ -777,12 +777,11 @@ body {
 }
 
 .img_diseñador_info{
-    width: 80%;
+    width: 70%;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 50%;
-    width: 60%;
     object-fit: cover;
     z-index: -1;
 }
