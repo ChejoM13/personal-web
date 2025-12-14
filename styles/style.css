@@ -7,6 +7,7 @@ body {
     padding: 0;
     height: 100vh;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -304,7 +305,7 @@ body {
     margin: 0;
     padding: 0;
     width: 174px;
-    font-size: 0.813rem;    
+    font-size: 0.75rem;    
     text-align: left;
 }
 
@@ -443,7 +444,7 @@ body {
 }
 
 .info_porcentaje{
-    font-size: 0.625rem;
+    font-size: 0.75rem;
 
 }
 
@@ -562,7 +563,7 @@ body {
 .horas_2_info{
     margin-top: 26px;
     width: 75%;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     font-family: 'Inter', sans-serif;
 }
 
